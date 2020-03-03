@@ -25,6 +25,7 @@ export class RuleExecuteRequest {
 }
 
 export class RuleExecuteResponse {
+    @IsString()
     public haveRecommendation: string;
 }
 
